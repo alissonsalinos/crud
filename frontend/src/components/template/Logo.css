@@ -1,0 +1,18 @@
+aside.logo {
+   background-color: var(--bg-light);
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   box-shadow: var(--shadow);
+}
+
+aside.logo img {
+    padding: 0px 4px;
+    width: 190px;
+}
+
+@media(max-width: 576px)  {
+    aside.logo img {
+        width: 240px
+    }
+}
